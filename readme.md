@@ -16,12 +16,32 @@
  	+ path: path.join(__dirname, "../dist")  //to root
 
 
- - without cli
+ - without cli (src2)
  	+ using `build`:"webpack" in package.json file
  	+ just by executing npm run + build
 
-- webpack with watch
+- webpack with watch (src3)
 	+ `watch`: "webpack --w"
 	+ and just run npm run `watch` 
 	+ i have in the past added a third script, whenever I wanted to run a few npm scripts
 	  in a single line and call them with a `&&` but watch by itself works fine here.
+
+- webpack wit babel-loader - transpile
+	+ baberc file - presets: env
+	+ es6 - es5 transformation
+	+ bundle file created
+	+ on a folder/path/file set with webpack.
+	+ npm script exec
+
+
+
+
+
+
+
+
+
+
+
+
+
