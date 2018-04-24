@@ -8,9 +8,14 @@
 
  ### webpack files
 
- - creates bundle.js
+ - creates bundle.js. (src)
  	+ node_modules/.bin/webpack.  
 
 
- - change location of dist folder using path module and webpack
+ - change location of dist folder using path module and webpack (src)
  	+ path: path.join(__dirname, "../dist")  //to root
+
+
+ - without cli
+ 	+ using `build`:"webpack" in package.json file
+ 	+ just by executing npm run + build
