@@ -26,7 +26,7 @@
 	+ i have in the past added a third script, whenever I wanted to run a few npm scripts
 	  in a single line and call them with a `&&` but watch by itself works fine here.
 
-- webpack wit babel-loader - transpile
+- webpack with babel-loader - transpile
 	+ baberc file - presets: env
 	+ es6 - es5 transformation
 	+ bundle file created
