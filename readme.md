@@ -19,3 +19,9 @@
  - without cli
  	+ using `build`:"webpack" in package.json file
  	+ just by executing npm run + build
+
+- webpack with watch
+	+ `watch`: "webpack --w"
+	+ and just run npm run `watch` 
+	+ i have in the past added a third script, whenever I wanted to run a few npm scripts
+	  in a single line and call them with a `&&` but watch by itself works fine here.
