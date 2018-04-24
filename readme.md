@@ -10,3 +10,7 @@
 
  - creates bundle.js
  	+ node_modules/.bin/webpack.  
+
+
+ - change location of dist folder using path module and webpack
+ 	+ path: path.join(__dirname, "../dist")  //to root
