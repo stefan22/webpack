@@ -32,7 +32,12 @@
 	+ bundle file created
 	+ on a folder/path/file set with webpack.
 	+ npm script exec
-
+    
+    
+- webpack to load css -  styles
+    + using style-loader and css-loader
+    + and import to import file to the page it is being applied on.
+    + npm run script
 
 
 
