@@ -8,25 +8,25 @@
 
  ### webpack files
 
- - creates bundle.js. (src)
+ - creates ***bundle.js*** (src)
  	+ node_modules/.bin/webpack.  
 
 
- - change location of dist folder using path module and webpack (src)
+ - ***change location*** of dist folder using path module and webpack (src)
  	+ path: path.join(__dirname, "../dist")  //to root
 
 
- - without cli (src2)
+ - ***without cli*** (src2)
  	+ using `build`:"webpack" in package.json file
  	+ just by executing npm run + build
 
-- webpack with watch (src3)
+- webpack with ***watch*** (src3)
 	+ `watch`: "webpack --w"
 	+ and just run npm run `watch` 
 	+ i have in the past added a third script, whenever I wanted to run a few npm scripts
 	  in a single line and call them with a `&&` but watch by itself works fine here.
 
-- webpack with babel-loader - transpile
+- webpack with ***babel-loader*** - transpile (src4)
 	+ baberc file - presets: env
 	+ es6 - es5 transformation
 	+ bundle file created
@@ -34,21 +34,21 @@
 	+ npm script exec
     
     
-- webpack to load css -  styles
-    + using style-loader and css-loader
+- webpack to ***load css*** -  styles (src5)
+    + using ___style-loader___ and css-loader
     + and to import file to the page it is being applied on.
     + npm run script
 
-- webpack to compile SCSS
+- webpack to ***compile SCSS*** (src6)
     + using sass-loader and node-sass
     + npm run script (build)
 
-- webpack to load images 
+- webpack to ***load images*** (src7)
     + using url loader and file loader
     + npm run script (build) 
     + used only url-loader in config file to run this task
 
-- webpack dev server with watch and auto refresh for all assets
+- ***webpack dev server*** with watch and auto refresh for all assets (src8)
     + dep: webpack-dev-server
     + add dev server to config
     + update npm script
