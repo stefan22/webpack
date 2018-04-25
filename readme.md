@@ -36,10 +36,12 @@
     
 - webpack to load css -  styles
     + using style-loader and css-loader
-    + and import to import file to the page it is being applied on.
+    + and to import file to the page it is being applied on.
     + npm run script
 
-
+- webpack to compile SCSS
+    + using sass-loader and node-sass
+    + npm run script (build)
 
 
 
