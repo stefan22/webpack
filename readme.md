@@ -27,7 +27,7 @@
 	  in a single line and call them with a `&&` but watch by itself works fine here.
 
 - webpack with ***babel-loader*** - transpile (src4)
-	+ baberc file - presets: env
+	+ `baberc` file - presets: env
 	+ es6 - es5 transformation
 	+ bundle file created
 	+ on a folder/path/file set with webpack.
