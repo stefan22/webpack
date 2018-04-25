@@ -48,7 +48,11 @@
     + npm run script (build) 
     + used only url-loader in config file to run this task
 
-
+- webpack dev server with watch and auto refresh for all assets
+    + dep: webpack-dev-server
+    + add dev server to config
+    + update npm script
+    + npm run script (build)
 
 
 
