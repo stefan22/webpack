@@ -35,21 +35,21 @@
     
     
 - webpack to ***load css*** -  styles (src5)
-    + using ___style-loader___ and css-loader
+    + using `style-loader` and `css-loader`
     + and to import file to the page it is being applied on.
     + npm run script
 
 - webpack to ***compile SCSS*** (src6)
-    + using sass-loader and node-sass
+    + using `sass-loade`r and `node-sass`
     + npm run script (build)
 
 - webpack to ***load images*** (src7)
-    + using url loader and file loader
+    + using `url-loader` and `file-loader`
     + npm run script (build) 
     + used only url-loader in config file to run this task
 
 - ***webpack dev server*** with watch and auto refresh for all assets (src8)
-    + dep: webpack-dev-server
+    + dep: `webpack-dev-server`
     + add dev server to config
     + update npm script
     + npm run script (build)
