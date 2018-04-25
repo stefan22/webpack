@@ -43,7 +43,10 @@
     + using sass-loader and node-sass
     + npm run script (build)
 
-
+- webpack to load images 
+    + using url loader and file loader
+    + npm run script (build) 
+    + used only url-loader in config file to run this task
 
 
 
