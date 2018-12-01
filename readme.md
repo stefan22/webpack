@@ -1,4 +1,4 @@
-## webpack
+## webpack . &nbsp; :checkered_flag: :moyai:
 
 - takes modules with dependencies and generates static assets representing those modules.
   (***wikipedia***)
@@ -56,11 +56,11 @@
 
 
 
-### wp4
+### wp4 . &nbsp; :water_buffalo:
 
-- npm i --save-dev html-webpack-plugin@next
-  Webpack docs dont seem to mention it anywhere.
-  and without it: `child entry point 'undefined' = ....`
+- npm i --save-dev html-webpack-plugin@next .    &nbsp; :bug:   
+  Webpack docs dont seem to mention it anywhere.        
+  and without it: `child entry point 'undefined' = ....` .           
 
   https://github.com/jantimon/html-webpack-plugin
 
