@@ -1,0 +1,2 @@
+- copy html from src to dist - one method
+- using plugin and setting inject to true easier
